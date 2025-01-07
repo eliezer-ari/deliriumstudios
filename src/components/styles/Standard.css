@@ -25,6 +25,7 @@ justify-content: flex-end;
 align-items: flex-start;
 width: 100vw;
 /* height: calc(100vh - 50px); */
+padding-left: 2rem;
 }
 
 .home-text {
@@ -381,6 +382,8 @@ width: 60vw;
 	align-items: flex-start;
 	width: 80vw;
 	/* height: calc(100vh - 50px); */
+	padding-left: 0;
+
 	}
 	
 	.home-text {

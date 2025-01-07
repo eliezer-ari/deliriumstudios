@@ -9,6 +9,7 @@ export default function Contact() {
 	}
 	return (
 		<div className="contact-container">
+				  <div className="contact-bg" />
 			<div className="contact-content">
 				<h1>Any questions? Reach out here:</h1>
 				<form onSubmit={handleSubmit}>
