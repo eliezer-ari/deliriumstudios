@@ -1,0 +1,65 @@
+.herocontainer {
+	position: absolute;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #000; /* Neutral background */
+	overflow-y: auto;
+  }
+
+  
+
+  
+  
+  .bookingbutton {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 2rem;
+	transition: all 0.3s ease;
+  }
+  
+  .bookingbutton:hover {
+	background-color: #fff;
+	color: #000;
+  }
+
+
+  
+
+
+.herocontainer .navreplacement {
+	display: flex;
+	width: 100vw;
+	height: 100px;
+	top: 0;
+	position: fixed;
+	z-index: 1099;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+
+
+.herocontainer .navreplacement {
+	display: flex;
+	width: 100vw;
+	height: 50px;
+	top: 0;
+	position: fixed;
+	z-index: 1099;
+}
+
+
+}

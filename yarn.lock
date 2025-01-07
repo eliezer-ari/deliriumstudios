@@ -1783,6 +1783,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formspree/core@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@formspree/core@npm:3.0.1"
+  dependencies:
+    "@stripe/stripe-js": "npm:^1.35.0"
+  checksum: 10c0/cd117162756d152c2619e74bb030cc3b7ded515af7e16b23fe3759447f2444ec3e8b5eb1b0da789aa4d1b2a8b47a45401aa1b0a5407b90cce2afd3cb39d3534e
+  languageName: node
+  linkType: hard
+
+"@formspree/react@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "@formspree/react@npm:2.5.1"
+  dependencies:
+    "@formspree/core": "npm:^3.0.1"
+    "@stripe/react-stripe-js": "npm:^1.7.1"
+    "@stripe/stripe-js": "npm:^1.35.0"
+  peerDependencies:
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  checksum: 10c0/20abec7f706189102b8c5d2cce0f32fd0843b01318b9885fac49a6b9127863ace4ee4408dcf301cddab28af0e6ffc23c623cf9e2866ffe095fdcca53749f7ffc
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.13.0":
   version: 0.13.0
   resolution: "@humanwhocodes/config-array@npm:0.13.0"
@@ -2398,6 +2421,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stripe/react-stripe-js@npm:^1.7.1":
+  version: 1.16.5
+  resolution: "@stripe/react-stripe-js@npm:1.16.5"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    "@stripe/stripe-js": ^1.44.1
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/6a704274b21ec0c41f6e2b5c8801012a5df217b0a8e1f7a920724d54420a93aee78454d235eac5da277f9952dd4adcf7e1eac99268833dda7757df069c78a070
+  languageName: node
+  linkType: hard
+
+"@stripe/stripe-js@npm:^1.35.0":
+  version: 1.54.2
+  resolution: "@stripe/stripe-js@npm:1.54.2"
+  checksum: 10c0/cf6ea20039fde28a0edc5562f08120ea820b1f8b8f2cf8b769aa92c0a4799a85e614f4112d8d790238960d0a3e1a194c76f6d2d941aa91acc8fbbc8920e63f02
+  languageName: node
+  linkType: hard
+
 "@surma/rollup-plugin-off-main-thread@npm:^2.2.3":
   version: 2.2.3
   resolution: "@surma/rollup-plugin-off-main-thread@npm:2.2.3"
@@ -2696,6 +2739,13 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 10c0/2e1cdba2c410f25649e77856505cd60223250fa12dff7a503e492208dbfdd25f62859918f28aba95315251fd1f5e1ffbfca1e25e73037189ab85dd3f8d0a148c
+  languageName: node
+  linkType: hard
+
+"@types/cookie@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@types/cookie@npm:0.6.0"
+  checksum: 10c0/5b326bd0188120fb32c0be086b141b1481fec9941b76ad537f9110e10d61ee2636beac145463319c71e4be67a17e85b81ca9e13ceb6e3bb63b93d16824d6c149
   languageName: node
   linkType: hard
 
@@ -4653,6 +4703,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "cookie@npm:1.0.2"
+  checksum: 10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b
+  languageName: node
+  linkType: hard
+
 "core-js-compat@npm:^3.38.0, core-js-compat@npm:^3.38.1":
   version: 3.39.0
   resolution: "core-js-compat@npm:3.39.0"
@@ -5188,12 +5245,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "delirium@workspace:."
   dependencies:
+    "@formspree/react": "npm:^2.5.1"
     "@testing-library/jest-dom": "npm:^5.14.1"
     "@testing-library/react": "npm:^13.0.0"
     "@testing-library/user-event": "npm:^13.2.1"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-router-dom: "npm:^7.1.1"
     react-scripts: "npm:5.0.1"
+    react-scroll: "npm:^1.9.0"
     web-vitals: "npm:^2.1.0"
   languageName: unknown
   linkType: soft
@@ -8849,6 +8909,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 10c0/14628013e9e7f65ac904fc82fd8ecb0e55a9c4c2416434b1dd9cf64ae70a8937f0b15376a39a68248530adc64887ed0fe2b75204b2c9ec3eea1cb2d66ddd125d
+  languageName: node
+  linkType: hard
+
 "lodash.uniq@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.uniq@npm:4.5.0"
@@ -10859,7 +10926,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -11055,6 +11122,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "react-router-dom@npm:7.1.1"
+  dependencies:
+    react-router: "npm:7.1.1"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10c0/2dc5b231dd21aab21378c615b1e373149007d173e90db984e6f708b5ee4b28923b3cf88ce7d6f727be927829b37ba37c01436f9f7abeb84ba3d1bfc9ecd4bc72
+  languageName: node
+  linkType: hard
+
+"react-router@npm:7.1.1":
+  version: 7.1.1
+  resolution: "react-router@npm:7.1.1"
+  dependencies:
+    "@types/cookie": "npm:^0.6.0"
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
+    turbo-stream: "npm:2.4.0"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10c0/39f4859670f286eb2eac29e5830c1f730405701fca0808e5db853ec05e54e55a848c764e10ffd14a7b9b3b2154a0d6449656d7f208b9b3e4b2af780e07bf57a8
+  languageName: node
+  linkType: hard
+
 "react-scripts@npm:5.0.1":
   version: 5.0.1
   resolution: "react-scripts@npm:5.0.1"
@@ -11119,6 +11216,19 @@ __metadata:
   bin:
     react-scripts: bin/react-scripts.js
   checksum: 10c0/1776e7139261019eb4a2adece8fb997913040c6b4e9170902ffed95c3ff311ded623189bb1582ecddb3a5a15d6afd871fb68dbed72080d50f635e31c4ff5fff5
+  languageName: node
+  linkType: hard
+
+"react-scroll@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "react-scroll@npm:1.9.0"
+  dependencies:
+    lodash.throttle: "npm:^4.1.1"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/bcaa045740351ba1373d2e3f236b1ff0d383e4e5efd43d87644c165a3c1c4988bd0361515c487688daf39c122b035c8a014fcd9184f51deb4a0d2c232ac5fb61
   languageName: node
   linkType: hard
 
@@ -11777,6 +11887,13 @@ __metadata:
     parseurl: "npm:~1.3.3"
     send: "npm:0.19.0"
   checksum: 10c0/528fff6f5e12d0c5a391229ad893910709bc51b5705962b09404a1d813857578149b8815f35d3ee5752f44cd378d0f31669d4b1d7e2d11f41e08283d5134bd1f
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.1
+  resolution: "set-cookie-parser@npm:2.7.1"
+  checksum: 10c0/060c198c4c92547ac15988256f445eae523f57f2ceefeccf52d30d75dedf6bff22b9c26f756bd44e8e560d44ff4ab2130b178bd2e52ef5571bf7be3bd7632d9a
   languageName: node
   linkType: hard
 
@@ -12783,6 +12900,13 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 10c0/02f19e458ec78ead8fffbf711f834ad8ecd2cc6ade4ec0320790713dccc0a412b99e7fd907c4cda2a1dc602c75db6f12e0108e87a5afad4b2f9e90a24cabd5a2
+  languageName: node
+  linkType: hard
+
+"turbo-stream@npm:2.4.0":
+  version: 2.4.0
+  resolution: "turbo-stream@npm:2.4.0"
+  checksum: 10c0/e68b2569f1f16e6e9633d090c6024b2ae9f0e97bfeacb572451ca3732e120ebbb546f3bc4afc717c46cb57b5aea6104e04ef497f9912eef6a7641e809518e98a
   languageName: node
   linkType: hard
 

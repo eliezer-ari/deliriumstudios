@@ -1,0 +1,31 @@
+.standard-container-cal {
+	height: fit-content;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: auto;
+}
+
+.white-box {
+	display: flex;
+	width: 100vw;
+	height: 100px;
+	background-color: #fff;
+}
+
+.calendar-container {
+	display: flex;
+	width: 100vw;
+	height: fit-content;
+	flex-direction: column;
+
+}
+
+
+@media (max-width: 960px) {
+
+}

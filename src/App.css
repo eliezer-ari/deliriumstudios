@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+@import url("https://use.typekit.net/nov8hyw.css");
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+	color: #fff;
+	font-family: "Sen", sans-serif;
+	font-optical-sizing: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	background-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	-webkit-text-size-adjust: 100%; /* Prevents automatic zooming */
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+	overflow: auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes floatingColors {
+	0% {
+		background-position: 20% 30%, 80% 70%, 50% 50%;
+	}
+	50% {
+		background-position: 30% 40%, 70% 60%, 40% 80%;
+	}
+	100% {
+		background-position: 40% 20%, 60% 80%, 60% 30%;
+	}
 }
