@@ -9,26 +9,53 @@
 	justify-content: center;
 	position: relative;
 	/* overflow: auto; */
-	background: radial-gradient(
-		circle at 20% 30%,
-		rgba(0, 170, 255, 0.4) 20%,
-		transparent 60%
-	),
-	radial-gradient(
-		circle at 80% 70%,
-		rgba(115, 0, 255, 0.4) 20%,
-		transparent 60%
-	),
-	radial-gradient(
-		circle at 50% 50%,
-		rgba(132, 0, 255, 0.6) 20%,
-		transparent 60%
-	);
+	/* background: radial-gradient(
+			circle at 20% 30%,
+			rgba(0, 170, 255, 0.4) 20%,
+			transparent 60%
+		),
+		radial-gradient(
+			circle at 80% 70%,
+			rgba(115, 0, 255, 0.4) 20%,
+			transparent 60%
+		),
+		radial-gradient(
+			circle at 50% 50%,
+			rgba(132, 0, 255, 0.6) 20%,
+			transparent 60%
+		); */
 	/* background-size: 200% 200%;
 	background-position: 20% 30%, 80% 70%, 50% 50%;
 	animation: floatingColors 5s ease-in-out infinite alternate; */
+	overflow: hidden;
 	}
 
+
+	.contact-bg {
+		display: flex;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100vw;
+		height:70vh;
+		transform: translateY(50px);
+		background: radial-gradient(
+			circle at 20% 30%,
+			rgba(0, 170, 255, 0.4) 20%,
+			transparent 60%
+		),
+		radial-gradient(
+			circle at 80% 70%,
+			rgba(115, 0, 255, 0.4) 20%,
+			transparent 60%
+		),
+		radial-gradient(
+			circle at 50% 50%,
+			rgba(132, 0, 255, 0.6) 20%,
+			transparent 60%
+		);
+		z-index: 500;
+	}
 
 
 .contact-container {
@@ -41,6 +68,8 @@
 	width: 100%;
 	/* padding-top: 6rem;
 	padding-bottom: 6rem; */
+	overflow: hidden;
+	z-index: 1500;
 	
 }
 
@@ -53,6 +82,8 @@
 	font-weight: 200;
 	letter-spacing: 0.2rem;
 	font-size: 0.5rem;
+	z-index: 1500;
+
 }
 .contact-content {
 	display: flex;

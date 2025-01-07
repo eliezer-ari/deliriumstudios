@@ -89,7 +89,6 @@ const Hero = () => {
             >
               Book Now
             </Link>
-            {/* <h4>Just want to use our space for DJ practice? Click here</h4> */}
           </div>
         </div>
       </div>
@@ -100,9 +99,13 @@ const Hero = () => {
       </Element>
       <div className="standard-container-contact">
         <Contact />
-		<div className="bottom-text">Delirium Entertainment, Inc. © 2025</div>
-
+        <div className="bottom-text">Delirium Entertainment, Inc. © 2025</div>
       </div>
+      {/* Conditionally hide the background */}
+      <div
+        className={`contact-bg ${isLogoInverted ? "hidden" : ""}`}
+        style={{ display: isLogoInverted ? "block" : "none" }}
+      />
       <div className="navreplacement">
         <nav className="navbar">
           <div className="logospacer">
